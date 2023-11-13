@@ -4,7 +4,7 @@
 
   - Player Service (SGBD:MySQL) : "PlayerService"
     - port : 9000
-    - Joc De Daus MySQL without spring security in branch "JocDeDausSQL"
+    - Joc De Daus MySQL without spring security in branch "JocDeDausSQL" of "PlayerService"
     - Spring Data JPA, Spring Data REST, springdoc-openapi : "/9000/swagger-ui.html"
     - port : 9000
     - 
