@@ -77,7 +77,7 @@ public class PlayerController {
 		return new ResponseEntity<>(playerService.getAllPlayers(), HttpStatus.OK);
 	}
 
-	@GetMapping("/{id}/play")
+	@PostMapping("/{id}/games")
 	public ResponseEntity<GameDTO> playGame(@PathVariable Long id) {
 		PlayerDTO pdto = playerService.getPlayerDTO(id);
 		if (pdto == null) {
