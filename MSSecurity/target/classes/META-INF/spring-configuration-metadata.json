@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "cat.itacademy.barcelonactiva.abdellaoui.fethi.s05.t02.security.Config.RsaKeysConfiguration",
+      "sourceType": "cat.itacademy.barcelonactiva.abdellaoui.fethi.s05.t02.security.Config.RsaKeysConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "cat.itacademy.barcelonactiva.abdellaoui.fethi.s05.t02.security.Config.RsaKeysConfiguration"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "cat.itacademy.barcelonactiva.abdellaoui.fethi.s05.t02.security.Config.RsaKeysConfiguration"
+    }
+  ],
+  "hints": []
+}
