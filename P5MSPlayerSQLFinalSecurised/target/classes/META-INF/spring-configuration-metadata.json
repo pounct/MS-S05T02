@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "com.example.jocdedaus.config.RsaKeyConfiguration",
+      "sourceType": "com.example.jocdedaus.config.RsaKeyConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.example.jocdedaus.config.RsaKeyConfiguration"
+    }
+  ],
+  "hints": []
+}
